@@ -1,0 +1,41 @@
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.products-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.product-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+}
+
+
+.red { background-color: rgb(255, 251, 0); }
+.purple { background-color: rgb(255, 187, 0); }
+.blue { background-color: rgb(255, 155, 5); }
+
+
+.product-button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
